@@ -1,0 +1,26 @@
+import random
+import string
+random.choice('ABCD')
+
+def boat():
+    boatLocation = letterIndexesRandom, numberIndexesRandom
+    return(boatLocation)
+
+print(boat)
+
+
+"""
+#user misses boat
+if letter != boatLetter and number != boatNumber:
+    print('Jūs netrāpijāt pa kuģi!')
+    userShot -= 1
+    print('Tev ir atlikuši',userShot,'šavieni!')
+    (boatLetter, boatNumber) = boatLocation
+
+#user misses boat
+if letter != boatLetter and number == boatNumber or letter == boatLetter and number != boatNumber:
+    print('Jūs netrāpijāt pa kuģi!')
+    userShot -= 1
+    print('Tev ir atlikuši',userShot,'šavieni!')
+    (boatLetter, boatNumber) = boatLocation
+"""
